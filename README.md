@@ -65,3 +65,9 @@ To use real photos, convert your `.jpg`/`.png` to `.ppm` with [IrfanView](https:
 - `expected_invert.ppm` — what the output should look like after applying the Invert filter
 
 Use them to verify the program produces the correct output.
+
+## Filters in action
+
+![Filters comparison](screenshots/filters_comparison.png)
+
+Same source image processed through each filter: Grayscale collapses RGB into luminance, Invert produces a photo negative, Sepia applies a warm vintage tone, and Sharpen accentuates edges via the 3x3 convolution kernel.
